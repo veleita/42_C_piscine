@@ -4,3 +4,6 @@ These are my C Piscine stats. I passed this piscine in October 2019 before I sta
 I thought it would be interesting to review my exercises and complete those I didn't finish back in the day.
 All of the original code is still there, but I have also made some additions for those exercises I would do differently now.
 My idea is for this repository to be some kind of time machine for my domain on C.
+
+## C00
+Succeeded with 70%
