@@ -10,24 +10,33 @@ My idea is for this repository to be some kind of time machine for my domain on 
 Succeeded with 100%
 
 ex00 -- Original
+
 	Test:
 			cat z
 	Output:
 			Z$
 
 ex01 -- Modified
+
 	Test:
 			tar -tvf testShell00.tar
 	Output:
 			-r--r-xr-x  0 XX XX 40 Jun  1 23:42 testShell00
 
 ex02 --
+
 ex03 --
+
 ex04 --
+
 ex05 --
+
 ex06 --
+
 ex07 --
+
 ex08 --
+
 ex09 --
 
 
