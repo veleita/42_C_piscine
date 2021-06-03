@@ -23,21 +23,105 @@ ex01 -- Modified
 	Output:
 			-r--r-xr-x  0 XX XX 40 Jun  1 23:42 testShell00
 
-ex02 --
+For more info:
 
-ex03 --
+	man touch
+	man chmod
 
-ex04 --
+ex02 -- Original
 
-ex05 --
+	Test:
+			tar -xvf exo2.tar
+			ls -l
+	Output:
+			total 33
+			-rw-r--r--  1 XX XX XX Jun  2 15:35 exo2.tar
+			drwx--xr-x  2 XX XX XX Jun  1  2019 test0
+			-rwx--xr--  1 XX XX  4 Jun  1  2019 test1
+			dr-x---r--  2 XX XX XX Jun  1  2019 test2
+			-r-----r--  2 XX XX  1 Jun  1  2019 test3
+			-rw-r----x  1 XX XX  2 Jun  1  2019 test4
+			-r-----r--  2 XX XX  1 Jun  1  2019 test5
+			lrwxrwxrwx  1 XX XX  5 Jun  1  2019 test6 -> test0
 
-ex06 --
+For more info:
+
+	man touch
+	man chmod
+
+ex03 -- Original
+
+	Test:
+			cat klist.txt
+	Output:
+			Credentials cache: API:809EBF00-20FB-48C4-9A95-081C01C20010
+      				  Principal: mzomeno-@42MADRID.COM
+
+  		Issued                Expires               Principal
+	Sep 30 16:17:34 2019  Oct  1 02:17:13 2019  krbtgt/42MADRID.COM@42MADRID.COM
+
+For more info:
+
+	man kerberos
+	man kinit
+
+ex04 -- Original
+
+	Test:
+			cat midLS
+	Output:
+			ls -t -U -p -m
+
+For more info:
+
+	man ls
+
+ex05 -- Original
+
+	Test:
+			cat git_commit.sh
+	Output:
+			# /bin/sh
+			git log --format="%H" -n 5
+
+For more info:
+
+	man git-log (/PRETTY FORMATS)
+
+ex06 -- Original
+
+	Test:
+			cat git_ignore.sh
+	Output:
+			#! /bin/sh
+			git ls-files $(git rev-parse --show-toplevel) -i -o --exclude-standard
+
+For more info:
+
+	man gitignore
+	man git-ls-files
+	man git-rev-parse
 
 ex07 --
 
+	Test:
+			
+	Output:
+			
+
 ex08 --
 
+	Test:
+			
+	Output:
+			
+
 ex09 --
+
+	Test:
+			
+	Output:
+			
 
 
 ## c00
