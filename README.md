@@ -105,16 +105,25 @@ For more info:
 ex07 --
 
 	Test:
-			
+			tar -xvf resources.tar.gz
+			diff a b > test
+			diff sw.diff test
 	Output:
-			
+			Nothing (test and sw.diff must be equal, so diff shouldn't show any output)
+
+For more info:
+
+	man diff
+	man patch
+
 
 ex08 --
 
 	Test:
-			
+			cat clean
 	Output:
-			
+			#!/bin/sh
+			find . -type f -name "#*#" -print -delete -o -type f -name "*~" -print -delete
 
 ex09 --
 
