@@ -6,17 +6,20 @@ I thought it would be interesting to review my exercises and complete those I di
 All of the original code is still there, but I have also made some additions for those exercises I would do differently now.
 My idea is for this repository to be some kind of time machine for my domain on C.
 
+This huge readme will be later written into a wiki.
+
 ## sh00
 Succeeded with 100%
 
-ex00 -- Original
+#### ex00 -- Original
 
 	Test:
 			cat z
 	Output:
 			Z$
+---
 
-ex01 -- Modified
+#### ex01 -- Modified
 
 	Test:
 			tar -tvf testShell00.tar
@@ -27,8 +30,9 @@ For more info:
 
 	man touch
 	man chmod
+---
 
-ex02 -- Original
+#### ex02 -- Original
 
 	Test:
 			tar -xvf exo2.tar
@@ -48,8 +52,9 @@ For more info:
 
 	man touch
 	man chmod
+---
 
-ex03 -- Original
+#### ex03 -- Original
 
 	Test:
 			cat klist.txt
@@ -64,8 +69,9 @@ For more info:
 
 	man kerberos
 	man kinit
+---
 
-ex04 -- Original
+#### ex04 -- Original
 
 	Test:
 			cat midLS
@@ -75,8 +81,9 @@ ex04 -- Original
 For more info:
 
 	man ls
+---
 
-ex05 -- Original
+#### ex05 -- Original
 
 	Test:
 			cat git_commit.sh
@@ -87,8 +94,9 @@ ex05 -- Original
 For more info:
 
 	man git-log (/PRETTY FORMATS)
+---
 
-ex06 -- Original
+#### ex06 -- Original
 
 	Test:
 			cat git_ignore.sh
@@ -101,8 +109,9 @@ For more info:
 	man gitignore
 	man git-ls-files
 	man git-rev-parse
+---
 
-ex07 --
+#### ex07 --
 
 	Test:
 			tar -xvf resources.tar.gz
@@ -118,19 +127,26 @@ For more info:
 
 
 ex08 --
+=======
+---
+			
+#### ex08 --
 
 	Test:
 			cat clean
 	Output:
 			#!/bin/sh
 			find . -type f -name "#*#" -print -delete -o -type f -name "*~" -print -delete
+			
+---
 
-ex09 --
+#### ex09 --
 
 	Test:
 			
 	Output:
 			
+---
 
 
 ## c00
