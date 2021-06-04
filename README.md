@@ -124,10 +124,6 @@ For more info:
 
 	man diff
 	man patch
-
-
-ex08 --
-=======
 ---
 			
 #### ex08 --
@@ -138,14 +134,22 @@ ex08 --
 			#!/bin/sh
 			find . -type f -name "#*#" -print -delete -o -type f -name "*~" -print -delete
 			
+For more info:
+
+	man find
 ---
 
 #### ex09 --
 
 	Test:
-			
+			cat ft_magic
 	Output:
-			
+			41 string 42 42 file
+
+For more info:
+
+	man file
+	man 5 magic
 ---
 
 
