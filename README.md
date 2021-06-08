@@ -24,7 +24,7 @@ Succeeded with 70%
 
 	More info:
 			man id
-			https://en.wikipedia.org/wiki/Sed#Usage
+			https://www.tutorialspoint.com/unix/unix-regular-expressions.htm
 			man tr
 ---
 
@@ -121,12 +121,31 @@ Succeeded with 70%
 
 	Test:
 			chmod +x r_dwssap.sh
+			export FT_LINE1=2
+			export FT_LINE1=9 (you can change this range as you like)
 			bash r_dwssap.sh
 	Output:
-			
+			yapelppa_, www_, vamalc_, toorsmvc_, toor, tocevod_, tnegaevitpac_, svc_.%
+			(the users may differ)
 
 	More info:
-			
+			https://www.tutorialspoint.com/unix/unix-regular-expressions.htm
+			man tr
+---
+
+### ex08 -- Added
+
+	Test:
+			export FT_NBR1=\\\'\?\"\\\"\'\\
+			export FT_NBR2=rcrdmddd
+			chmod +x add_chelou.sh
+			bash add_chelou.sh
+	Output:
+			Salut
+	More info:
+			man tr
+			man bc (/VARIABLES)
+			https://www.shellscript.sh/escape.html
 
 ## c00 🔜
 Succeeded with 70%
